@@ -1,0 +1,43 @@
+<p-sidebar
+  [style]="{ width: '20em', background: '#3d3d3d' }"
+  [(visible)]="display"
+  [fullScreen]="true"
+>
+  <div class="sidebar-items">
+    <a
+      (click)="display = false"
+      class="sidebar-items__link"
+      [routerLink]="['home']"
+      >Home</a
+    >
+    <a
+      (click)="display = false"
+      class="sidebar-items__link"
+      [routerLink]="['projects']"
+      >Projects</a
+    >
+  </div>
+</p-sidebar>
+
+<div class="main-container">
+  <div class="main-container-top-bar">
+    <button
+      pButton
+      pRipple
+      (click)="display = !display"
+      type="button"
+      icon="pi pi-align-left"
+      class="p-button-text p-button-warn main-container-top-bar__button"
+    ></button>
+
+    <div class="main-container-top-bar-contact">
+      <p class="main-container-top-bar-contact__p">+48 666 666 666</p>
+      <p class="main-container-top-bar-contact__p">
+        dmkajdkasjdajkdkjlasdkj@gmail.com
+      </p>
+    </div>
+  </div>
+  <div class="main-container-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<p-galleria
+  [value]="images"
+  [autoPlay]="true"
+  [showThumbnails]="false"
+  [transitionInterval]="5000"
+  [responsiveOptions]="responsiveOptions"
+  [circular]="true"
+>
+  <ng-template pTemplate="item" let-item>
+    <img [src]="item.previewImageSrc" [alt]="item.alt" />
+  </ng-template>
+</p-galleria>
+<div class="overlay">
+  <p class="overlay__p1">Hej,</p>
+  <p class="overlay__p2">Jestem</p>
+  <p class="overlay__p2">Dariusz Mizgalski</p>
+  <button
+    pButton
+    type="button"
+    class="p-button-secondary"
+    label="Zapraszam do kontaku"
+  ></button>
+</div>

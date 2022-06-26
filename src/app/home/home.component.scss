@@ -1,0 +1,66 @@
+@import '../styling/styling.scss';
+
+:host {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
+
+::ng-deep .p-button-secondary {
+    background: $button-bg !important;
+    border: $button-bg !important;
+}
+
+::ng-deep .p-button-secondary:hover {
+    background: rgba($color: $button-bg, $alpha: 0.8) !important;
+}
+
+::ng-deep p-galleria {
+    height: 100%;
+    transition: ease 1s;
+
+    .p-galleria-item {
+        img {
+
+            object-fit: cover;
+            width: 100%;
+            position: fixed;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+.overlay {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba($color: $bg, $alpha: 0.4);
+
+    &__p1 {
+        font-size: 5rem;
+        padding: 10px;
+        margin: 0;
+        color: $font-color;
+    }
+
+    &__p2 {
+        padding: 0;
+        margin: 10px;
+        font-size: 3rem;
+        color: $font-color;
+    }
+}

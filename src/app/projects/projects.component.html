@@ -1,0 +1,41 @@
+<div class="main-container">
+  <div class="main-container-header">
+    <p class="main-container-header__p">Projeky</p>
+  </div>
+  <div class="main-container-projects" *ngIf="loaded | async">
+    <p-dataView
+      #dv
+      [value]="projects"
+      [paginator]="true"
+      [rows]="5"
+      [sortField]="sortField"
+      layout="grid"
+      filterBy="type"
+    >
+      <ng-template pTemplate="header">
+        <div class="p-d-flex p-flex-column p-flex-md-row p-jc-md-between">
+          <p-dropdown
+            [showClear]="true"
+            [options]="sortOptions"
+            placeholder="Rodzaj"
+            (onChange)="onChange($event, dv)"
+            styleClass="p-mb-2 p-mb-md-0"
+          ></p-dropdown>
+        </div>
+      </ng-template>
+      <ng-template let-project pTemplate="gridItem">
+        <img *ngIf="!isPdf(project.path)" [src]="project.path" />
+        <div class="grid-item">
+          <i *ngIf="isPdf(project.path)" class="pi pi-file-pdf"></i>
+          <button
+            pButton
+            *ngIf="isPdf(project.path)"
+            (click)="openPdfView(project.path)"
+            label="Open pdf"
+            class="p-button-secondary"
+          ></button>
+        </div>
+      </ng-template>
+    </p-dataView>
+  </div>
+</div>

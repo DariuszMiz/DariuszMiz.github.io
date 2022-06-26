@@ -1,0 +1,64 @@
+@import '../styling/styling.scss';
+
+:host {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 20%;
+}
+
+::ng-deep p-dataView {
+    width: 100% !important;
+}
+
+.grid-item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    i {
+        margin: 20px;
+        font-size: 5rem;
+        color: $button-bg;
+    }
+
+    button {
+        margin: 10px;
+    }
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: inherit;
+
+    &-header {
+        background: url(https://images.unsplash.com/photo-1495985812444-236d6a87bdd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: inherit;
+
+        &__p {
+            font-size: 4rem;
+            color: black;
+        }
+    }
+
+    &-projects {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

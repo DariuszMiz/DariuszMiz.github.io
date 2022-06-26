@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import './app/styling/styling.scss';
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: $main-font;
+}
+
+*:focus {
+    outline: 0 none;
+    outline-offset: 0px;
+    box-shadow: none;
+}

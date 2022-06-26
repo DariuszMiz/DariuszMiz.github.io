@@ -1,0 +1,130 @@
+@import '../styling/styling.scss';
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        &-top-bar {
+            &-contact {
+                &__p {
+                    display: none;
+                }
+            }
+        }
+
+        &-content {
+            width: 100vw;
+            min-height: calc(100vh - $top-bar-height);
+            width: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+
+::ng-deep p-sidebar {
+    .p-sidebar-header {
+        padding: 0 !important;
+    }
+
+    .p-sidebar-icon {
+        width: 4rem !important;
+        height: 4rem !important;
+        color: $font-color !important;
+        background-color: $button-bg !important;
+        border-radius: 0 !important;
+        width: 100% !important;
+
+        .pi {
+            font-size: 1.5rem;
+            transition: ease-in 0.5s;
+        }
+
+        .pi:hover {
+            color: $bar-bg;
+        }
+    }
+}
+
+.sidebar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__link {
+        margin: 3rem 0 3rem 0;
+        font-size: 2rem;
+        text-decoration: none;
+        color: $font-color;
+        transition: ease 0.6s;
+    }
+
+    &__link:hover {
+        color: $button-bg;
+    }
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: $bg;
+
+    &-top-bar {
+        background: rgba($color: $bg, $alpha: 0.3);
+        z-index: 1;
+        height: $top-bar-height;
+        width: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+
+        &__button {
+            outline: none !important;
+            min-height: $top-bar-height;
+            min-width: $top-bar-height;
+            border-radius: 0;
+            background: $button-bg;
+            color: $font-color;
+
+            ::ng-deep .pi {
+                color: $font-color;
+                font-size: 2rem;
+            }
+        }
+
+        &__button:hover {
+            background-color: rgba($color: $button-bg, $alpha: 0.6) !important;
+        }
+
+        &-contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__p {
+                padding: 10px;
+                color: $font-color;
+            }
+        }
+
+
+    }
+
+    &-content {
+        width: 100vw;
+        min-height: calc(100vh - $top-bar-height);
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
