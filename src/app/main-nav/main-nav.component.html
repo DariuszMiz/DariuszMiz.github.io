@@ -8,12 +8,14 @@
       (click)="display = false"
       class="sidebar-items__link"
       [routerLink]="['home']"
+      [skipLocationChange]="true"
       >Home</a
     >
     <a
       (click)="display = false"
       class="sidebar-items__link"
       [routerLink]="['projects']"
+      [skipLocationChange]="true"
       >Projects</a
     >
   </div>
@@ -31,10 +33,8 @@
     ></button>
 
     <div class="main-container-top-bar-contact">
-      <p class="main-container-top-bar-contact__p">+48 666 666 666</p>
-      <p class="main-container-top-bar-contact__p">
-        dmkajdkasjdajkdkjlasdkj@gmail.com
-      </p>
+      <p class="main-container-top-bar-contact__p">+48 603 998 419</p>
+      <p class="main-container-top-bar-contact__p">darek.mizgalski@gmail.com</p>
     </div>
   </div>
   <div class="main-container-content">

@@ -39,7 +39,7 @@ img {
     width: inherit;
 
     &-header {
-        background: url(https://images.unsplash.com/photo-1495985812444-236d6a87bdd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+        background: url(https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -50,7 +50,7 @@ img {
 
         &__p {
             font-size: 4rem;
-            color: black;
+            color: $font-color;
         }
     }
 

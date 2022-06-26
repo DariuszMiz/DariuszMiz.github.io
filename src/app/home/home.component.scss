@@ -9,9 +9,21 @@
     z-index: 0;
 }
 
+@media only screen and (max-width: 300px) {
+    .overlay__p1 {
+        font-size: 40px !important;
+    }
+
+    .overlay__p2 {
+        font-size: 30px !important;
+    }
+}
+
 ::ng-deep .p-button-secondary {
     background: $button-bg !important;
     border: $button-bg !important;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
 ::ng-deep .p-button-secondary:hover {
@@ -37,6 +49,11 @@
     }
 }
 
+.link {
+    text-decoration: none;
+    align-self: baseline;
+}
+
 .overlay {
     position: fixed;
     z-index: 1;
@@ -48,19 +65,29 @@
     bottom: 0;
     right: 0;
     left: 0;
+    text-align: left;
     background: rgba($color: $bg, $alpha: 0.4);
+    padding: 10%;
 
     &__p1 {
-        font-size: 5rem;
+        width: 100%;
+        transition: ease 0.25s;
+        font-size: 4rem;
         padding: 10px;
         margin: 0;
         color: $font-color;
     }
 
     &__p2 {
+        width: 100%;
+        transition: ease 1s;
         padding: 0;
         margin: 10px;
-        font-size: 3rem;
+        font-size: 2rem;
         color: $font-color;
+    }
+
+    button {
+        align-self: baseline;
     }
 }
