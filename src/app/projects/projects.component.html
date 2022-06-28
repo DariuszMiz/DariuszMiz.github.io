@@ -24,7 +24,10 @@
         </div>
       </ng-template>
       <ng-template let-project pTemplate="gridItem">
-        <div class="col-12 md:col-4">
+        <div
+          class="col-12 md:col-4"
+          style="display: flex; justify-content: center; align-items: center"
+        >
           <p-image
             *ngIf="!isPdf(project.path)"
             [src]="project.path"
