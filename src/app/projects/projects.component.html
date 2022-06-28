@@ -24,16 +24,28 @@
         </div>
       </ng-template>
       <ng-template let-project pTemplate="gridItem">
-        <img *ngIf="!isPdf(project.path)" [src]="project.path" />
-        <div class="grid-item">
-          <i *ngIf="isPdf(project.path)" class="pi pi-file-pdf"></i>
-          <button
-            pButton
-            *ngIf="isPdf(project.path)"
-            (click)="openPdfView(project.path)"
-            label="Open pdf"
-            class="p-button-secondary"
-          ></button>
+        <div class="col-12 md:col-4">
+          <p-image
+            *ngIf="!isPdf(project.path)"
+            [src]="project.path"
+            alt="Image"
+            width="100%"
+            height="100%"
+            [preview]="true"
+          >
+            <ng-template pTemplate="indicator">
+              <i class="pi pi-eye"></i> </ng-template
+          ></p-image>
+          <div class="grid-item">
+            <i *ngIf="isPdf(project.path)" class="pi pi-file-pdf"></i>
+            <button
+              pButton
+              *ngIf="isPdf(project.path)"
+              (click)="openPdfView(project.path)"
+              label="Open pdf"
+              class="p-button-secondary"
+            ></button>
+          </div>
         </div>
       </ng-template>
     </p-dataView>

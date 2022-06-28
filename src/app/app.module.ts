@@ -17,6 +17,7 @@ import { PdfDialogComponent } from './projects/pdf-dialog/pdf-dialog.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { DataViewModule } from 'primeng/dataview';
 import { DropdownModule } from 'primeng/dropdown';
+import { ImageModule } from 'primeng/image';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { DropdownModule } from 'primeng/dropdown';
     SidebarModule,
     BrowserModule,
     GalleriaModule,
+    ImageModule,
     AppRoutingModule,
     DropdownModule,
     BrowserAnimationsModule,

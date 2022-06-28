@@ -22,25 +22,43 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .mobile {
+        flex-direction: column !important;
+    }
+
+    .mobile {
+        p {
+            display: unset !important
+        }
+    }
+}
+
 ::ng-deep p-sidebar {
     .p-sidebar-header {
         padding: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-sidebar-full {
+        height: unset !important;
     }
 
     .p-sidebar-icon {
-        width: 4rem !important;
-        height: 4rem !important;
+        margin: 1rem !important;
         color: $font-color !important;
-        background-color: $button-bg !important;
-        border-radius: 0 !important;
-        width: 100% !important;
 
         .pi {
             font-size: 1.5rem;
             transition: ease-in 0.5s;
         }
+    }
 
-        .pi:hover {
+    .p-sidebar-icon:hover {
+        .pi {
             color: $bar-bg;
         }
     }
@@ -53,8 +71,8 @@
     flex-direction: column;
 
     &__link {
-        margin: 3rem 0 3rem 0;
-        font-size: 2rem;
+        margin: 1.2rem 0 1.2rem 0;
+        font-size: 1.8rem;
         text-decoration: none;
         color: $font-color;
         transition: ease 0.6s;
@@ -73,6 +91,10 @@
     min-height: 100vh;
     width: 100%;
     background: $bg;
+
+    .mobile {
+        flex-direction: column !important;
+    }
 
     &-top-bar {
         background: rgba($color: $bg, $alpha: 0.3);

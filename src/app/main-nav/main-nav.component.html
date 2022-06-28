@@ -2,22 +2,25 @@
   [style]="{ width: '20em', background: '#3d3d3d' }"
   [(visible)]="display"
   [fullScreen]="true"
+  [style]="{ width: '100%', background: '#272727' }"
 >
   <div class="sidebar-items">
     <a
       (click)="display = false"
       class="sidebar-items__link"
       [routerLink]="['home']"
-      [skipLocationChange]="true"
       >Home</a
     >
     <a
       (click)="display = false"
       class="sidebar-items__link"
       [routerLink]="['projects']"
-      [skipLocationChange]="true"
       >Projects</a
     >
+  </div>
+  <div class="main-container-top-bar-contact mobile mobile2">
+    <p class="main-container-top-bar-contact__p">+48 603 998 419</p>
+    <p class="main-container-top-bar-contact__p">darek.mizgalski@gmail.com</p>
   </div>
 </p-sidebar>
 

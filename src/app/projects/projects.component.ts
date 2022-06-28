@@ -26,7 +26,9 @@ export class ProjectsComponent implements OnInit {
   public openPdfView(path: string): void {
     this.dialogService.open(PdfDialogComponent, {
       data: path,
-      width: '80%',
+      width: '100%',
+      height: '100%',
+      contentStyle: { overflow: 'hidden' },
     });
   }
 

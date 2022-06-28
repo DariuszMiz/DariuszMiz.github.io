@@ -4,11 +4,6 @@
     width: 100%;
 }
 
-img {
-    width: 100%;
-    height: 20%;
-}
-
 ::ng-deep p-dataView {
     width: 100% !important;
 }
@@ -19,6 +14,8 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+
 
     i {
         margin: 20px;
