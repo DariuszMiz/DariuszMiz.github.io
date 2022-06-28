@@ -37,7 +37,26 @@
               <i class="pi pi-eye"></i> </ng-template
           ></p-image>
           <div class="grid-item" *ngIf="isPdf(project.path)">
-            <i class="pi pi-file-pdf"></i>
+            <pdf-viewer
+              [src]="project.path"
+              [rotation]="0"
+              [original-size]="false"
+              [show-all]="true"
+              [fit-to-page]="false"
+              [zoom-scale]="'page-fit'"
+              [zoom-scale]="'page-width'"
+              [stick-to-page]="false"
+              [render-text]="true"
+              [external-link-target]="'blank'"
+              [autoresize]="true"
+              [show-borders]="true"
+              style="
+                width: 100%;
+                height: 300px;
+                overflow: hidden;
+                display: block;
+              "
+            ></pdf-viewer>
             <button
               pButton
               (click)="openPdfView(project.path)"
