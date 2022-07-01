@@ -18,6 +18,11 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { DataViewModule } from 'primeng/dataview';
 import { DropdownModule } from 'primeng/dropdown';
 import { ImageModule } from 'primeng/image';
+import { NgxExtendedPdfViewerCommonModule } from 'ngx-extended-pdf-viewer/lib/ngx-extended-pdf-viewer-common.module';
+import {
+  NgxExtendedPdfViewerModule,
+  NgxExtendedPdfViewerServerModule,
+} from 'ngx-extended-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -41,6 +46,7 @@ import { ImageModule } from 'primeng/image';
     DynamicDialogModule,
     PdfViewerModule,
     DataViewModule,
+    NgxExtendedPdfViewerModule,
   ],
   providers: [DialogService],
   bootstrap: [AppComponent],
