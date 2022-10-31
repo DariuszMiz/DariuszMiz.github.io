@@ -6,16 +6,8 @@
 >
   <div class="sidebar-items">
     <div class="splitter"></div>
-    <a
-      (click)="display = false"
-      class="sidebar-items__link"
-      [routerLink]="['home']"
-      >Home</a
-    >
-    <a
-      (click)="display = false"
-      class="sidebar-items__link"
-      [routerLink]="['projects']"
+    <a (click)="display = false; route('')" class="sidebar-items__link">Home</a>
+    <a (click)="display = false; route('projects')" class="sidebar-items__link"
       >Projects</a
     >
   </div>

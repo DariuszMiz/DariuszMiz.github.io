@@ -18,8 +18,8 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { DataViewModule } from 'primeng/dataview';
 import { DropdownModule } from 'primeng/dropdown';
 import { ImageModule } from 'primeng/image';
-import { NgxExtendedPdfViewerCommonModule } from 'ngx-extended-pdf-viewer/lib/ngx-extended-pdf-viewer-common.module';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -39,6 +39,7 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     BrowserAnimationsModule,
     ButtonModule,
     RippleModule,
+    RouterModule,
     HttpClientModule,
     DynamicDialogModule,
     PdfViewerModule,
