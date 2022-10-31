@@ -1,8 +1,8 @@
 {
   "types": [
     {
-      "label": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "value": "Elementy dodtkowe zabudowy - wiaty,pergole"
+      "label": "Elementy dodtkowe zabudowy",
+      "value": "Elementy dodtkowe zabudowy"
     },
     { "label": "Elementy konstrukcyjne", "value": "Elementy konstrukcyjne" },
     {
@@ -13,8 +13,12 @@
   ],
   "files": [
     {
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.1/1.png"
+    },
+    {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/1.png"
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/10 \u2014 kopia.png"
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
@@ -22,7 +26,15 @@
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/11 \u2014 kopia.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
       "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/11.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/2 \u2014 kopia.png"
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
@@ -30,7 +42,15 @@
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/3 \u2014 kopia.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
       "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/3.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/4 \u2014 kopia.png"
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
@@ -38,7 +58,15 @@
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/5 \u2014 kopia.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
       "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/5.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/6 \u2014 kopia.png"
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
@@ -46,11 +74,23 @@
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/7 \u2014 kopia.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
       "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/7.png"
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/8 \u2014 kopia.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
       "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/8.png"
+    },
+    {
+      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.1/9 \u2014 kopia.png"
     },
     {
       "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
@@ -125,176 +165,176 @@
       "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/1.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/2.2.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/2.2.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/2.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/2.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/3.3.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/3.3.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/3.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/3.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/4.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/4.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/5.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/5.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/6.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/6.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.4/7.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.4/7.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.5/1.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.5/1.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.5/2.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.5/2.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.5/3.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.5/3.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.5/4.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.5/4.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.5/5.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.5/5.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.5/6.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.5/6.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0009.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0009.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0042.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0042.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0043.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0043.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0044.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0044.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0052.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0052.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0054.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0054.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0058.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0058.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp00622x.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp00622x.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0063 2x.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0063 2x.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0065.2xpng.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0065.2xpng.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0068.2xpng.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0068.2xpng.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0070 2x.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0070 2x.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0076 2x.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0076 2x.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0077 2x.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0077 2x.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.6/ELEWACJA-Temp0081 2x.png"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.6/ELEWACJA-Temp0081 2x.png"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0003.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0003.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0004.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0004.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0005.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0005.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0006.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0006.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0007.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0007.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0008.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0008.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0009.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0009.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0010.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0010.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0011.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0011.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0012.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0012.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0013.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0013.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0014.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0014.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0015.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0015.jpg"
     },
     {
-      "type": "Elementy dodtkowe zabudowy - wiaty,pergole",
-      "path": "assets/data/projects/Elementy dodtkowe zabudowy - wiaty,pergole/w.7/IMG-20220628-WA0016.jpg"
+      "type": "Elementy dodtkowe zabudowy",
+      "path": "assets/data/projects/Elementy dodtkowe zabudowy/w.7/IMG-20220628-WA0016.jpg"
     },
     {
       "type": "Elementy konstrukcyjne",
